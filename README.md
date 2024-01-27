@@ -17,7 +17,7 @@ Without his post this repo would not exist.
 Generally all repos etc around catppuccin can be credited here.
 Credit where credit is due!
 I have taken a lot of inspiration from many different sources - Since this repo is in very early stages I most certainly have forgotten many mentions.
-> Please feel free to add/edit any ReadMe files with missing credit! I'll do my best to add credit as I go along1
+> Please feel free to add/edit any ReadMe files with missing credit! I'll do my best to add credit as I go along
 
 # WIP
 Many things may not work without dependencies. While I'll do my best to add an install script with as many dependencies as possible, feel free to DM me if you need help/I forget anything - which is very likely!
@@ -31,6 +31,7 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Add proper scripts for depencies
 - Write own neovim config and move away from NVCHAD
 - Declare/decide on proper standart programms (e.g. currently having both brave and firefox)
+- Add other configs (e.g. firefox userStyles -I just gotta figure out how to best do it)
 - Massively update/improve rofi config
 - More customisation and ricing
 
