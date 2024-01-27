@@ -1,4 +1,4 @@
-Hey there this is my hyprland config etc...
+Hey there this is my hyprland config with everything else I remembered to add.
 
 # DISCLAIMER 
 WARNING- MAJOR **WORK IN PROGRESS**
@@ -22,6 +22,7 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Add more credit/mentions
 - Get screenshots working - currently only black
 - Make and add screenshots
+- Add CONTRIBUTE.md and properly set up repo with settings and stuff
 - Update ReadMe files to look good
 - Add proper scripts for depencies
 - Write own neovim config and move away from NVCHAD
