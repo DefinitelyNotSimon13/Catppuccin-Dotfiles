@@ -34,5 +34,6 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Add other configs (e.g. firefox userStyles -I just gotta figure out how to best do it)
 - Massively update/improve rofi config
 - Change my wallpaper(s)
+- Customize neofetch
 - More customisation and ricing
 
