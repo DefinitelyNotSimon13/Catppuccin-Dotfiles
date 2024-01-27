@@ -25,3 +25,6 @@
 [submodule "wallpapers"]
 	path = Pictures/wallpapers
 	url = https://github.com/Gingeh/wallpapers
+[submodule "nvim"]
+	path = .config/nvim
+	url = https://github.com/DefinitelyNotSimon13/nvimConf.git
