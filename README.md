@@ -36,5 +36,6 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Change my wallpaper(s)
 - Customize neofetch
 - More customisation and ricing
-- Add more scirpts
+- Add more scripts
   - Automatically add things like gcm?
+- Add keybindig overview (hyprland, tmux, nvim) -> possibly more for my self lol
