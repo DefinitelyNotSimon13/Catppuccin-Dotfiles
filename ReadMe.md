@@ -2,10 +2,15 @@ Hey there this is my hyprland config etc...
 
 # DISCLAIMER 
 WARNING- MAJOR **WORK IN PROGRESS**
+I only got 
 
+# Theme inspiration
 My config is inspired by the Catppuccin Mocha theme.
+I have taken massive inspiration from [u/meow-64](https://www.reddit.com/user/meow-64)'s [post](https://www.reddit.com/r/unixporn/comments/ykt6z1/hyprland_catppuccin_with_hyprland) in r/unixporn. Here lays the base for most of the configuration I did!
+Without his post this repo would not exist.
 
 # CREDIT
+Generally all repos etc around catppuccin can be credited here.
 Credit where credit is due!
 I have taken a lot of inspiration from many different sources - Since this repo is in very early stages I most certainly have forgotten many mentions.
 > Please feel free to add/edit any ReadMe files with missing credit! I'll do my best to add credit as I go along1
