@@ -33,5 +33,6 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Declare/decide on proper standart programms (e.g. currently having both brave and firefox)
 - Add other configs (e.g. firefox userStyles -I just gotta figure out how to best do it)
 - Massively update/improve rofi config
+- Change my wallpaper(s)
 - More customisation and ricing
 
