@@ -22,3 +22,6 @@
 [submodule "hypr"]
 	path = .config/hypr
 	url = https://github.com/DefinitelyNotSimon13/hyprlandConf
+[submodule "wallpapers"]
+	path = Pictures/wallpapers
+	url = https://github.com/Gingeh/wallpapers
