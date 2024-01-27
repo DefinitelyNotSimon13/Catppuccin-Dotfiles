@@ -37,4 +37,4 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - Customize neofetch
 - More customisation and ricing
 - Add more scirpts
-  - Automatically add things like gcm?!
+  - Automatically add things like gcm?
