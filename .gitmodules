@@ -1,0 +1,9 @@
+[submodule "kitty"]
+	path = .config/kitty
+	url = https://github.com/DefinitelyNotSimon13/kittyConf
+[submodule "tmux"]
+	path = .config/tmux
+	url = https://github.com/DefinitelyNotSimon13/tmuxConf
+[submodule "alacritty"]
+	path = .config/kittyConf
+	url = https://github.com/DefinitelyNotSimon13/kittyConf
