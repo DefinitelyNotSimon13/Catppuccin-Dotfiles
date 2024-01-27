@@ -15,7 +15,12 @@ Many things may not work without dependencies. While I'll do my best to add an i
 
 # TODO
 - Add more credit/mentions
+- Get screenshots working - currently only black
+- Make and add screenshots
 - Update ReadMe files to look good
 - Add proper scripts for depencies
 - Write own neovim config and move away from NVCHAD
+- Declare/decide on proper standart programms (e.g. currently having both brave and firefox)
+- Massively update/improve rofi config
 - More customisation and ricing
+
