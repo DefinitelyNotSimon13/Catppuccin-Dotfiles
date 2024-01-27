@@ -2,7 +2,11 @@ Hey there this is my hyprland config with everything else I remembered to add.
 
 # DISCLAIMER 
 WARNING- MAJOR **WORK IN PROGRESS**
-I only got 
+
+I only started to get into linux (like properly - not just downloading popOS! and effectively using it like Windows) and all the stuff like wayland, compositors, etc.. in the past week. 
+As such there may be a few (or maybe even a lot) of points, that are done properly or may even cause errors etc. Please feel free to critize anything you deem inapropriately done.
+I am running this config with arch.
+
 
 # Theme inspiration
 My config is inspired by the Catppuccin Mocha theme.
