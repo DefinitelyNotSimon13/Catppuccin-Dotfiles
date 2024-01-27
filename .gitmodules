@@ -4,3 +4,21 @@
 [submodule "tmux"]
 	path = .config/tmux
 	url = https://github.com/DefinitelyNotSimon13/tmuxConf
+[submodule "alacritty"]
+	path = .config/alacritty
+	url = https://github.com/DefinitelyNotSimon13/kittyConf
+[submodule "rofiConf"]
+	path = .config/rofi
+	url = https://github.com/DefinitelyNotSimon13/rofiConf
+[submodule "waybar"]
+	path = .config/waybar
+	url = https://github.com/DefinitelyNotSimon13/waybarConf
+[submodule "neofetch"]
+	path = .config/neofetch
+	url = https://github.com/DefinitelyNotSimon13/neofetchConf
+[submodule "dunst"]
+	path = .config/dunst
+	url = https://github.com/DefinitelyNotSimon13/dunstConf
+[submodule "hypr"]
+	path = .config/hypr
+	url = https://github.com/DefinitelyNotSimon13/hyprlandConf
