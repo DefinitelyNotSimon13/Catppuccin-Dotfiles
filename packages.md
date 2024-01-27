@@ -27,7 +27,8 @@ python-pip
 python3
 npm
 - node (n)
-hyprpaper
+h- node (n)
+yprpaper
 hyprpicker
 cliphist
 dolphin (phonon-qt5-gstreamer)
@@ -36,8 +37,16 @@ qt5-graphicaleffects
 qt5-svg 
 qt5-quickcontrols2
 neofetch
+papirus-icon-theme
+(paper-icon theme (1))
+mpd
+zsh-autosuggestions
+zsh-syntax-highlighting
 
 (install yay)
 AUR/yay
 hyprpicker (1)
 catppuccin-gtk-theme-mocha
+git-credential-manager-core-bin
+
+
