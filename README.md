@@ -41,7 +41,7 @@ The repository consists of a few submodules:
   - .zsh config | *to be moved*
   - assets *like pictures and screenshots*
   - text files *like README or License*
--  **.themes** submodule *| to be cleaned up*
+-  **.[themes](https://github.com/DefinitelyNotSimon13/.themes/tree/main)** submodule *| to be cleaned up*
 - .config
 	- **[alacritty config](https://github.com/DefinitelyNotSimon13/alacrittyConf/tree/main)** submodule
 	- **[dunst config](https://github.com/DefinitelyNotSimon13/dunstConf/tree/main)** submodule
