@@ -1,6 +1,8 @@
 <div align='center'>
   <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
   <br>
+  <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinBar.png' alt='Catppuccin Bar' width=400>
+  <br>
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=STARS&labelColor=585b70&color=fab387">
   <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DefinitelyNotSimon13/Catppuccin-Dotfiles?include_prereleases&display_name=tag&style=flat-square&label=RELEASES&labelColor=585b70&color=94e2d5">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=ISSUES&labelColor=585b70&color=f38ba8">
