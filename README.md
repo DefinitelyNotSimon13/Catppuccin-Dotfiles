@@ -1,4 +1,5 @@
-   <div align='center'>
+
+  <div align='center'>
   <h1>
     <div>
       <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
@@ -17,8 +18,7 @@
     </div>
   </h1>
 </div>
-
-
+	      
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
@@ -27,10 +27,13 @@ Everything in this repository and it's submodules is still work in progress! The
 I only got into Linux in the past few weeks. It is very possible that things may be done incorrectly or improperly. 
 If you find anything thats wrong or could/should be done differently please feel free to open an issue!
 
+<hr>
 
 # Inspiration
 My first inspiration came from from [u/meow-64](https://www.reddit.com/user/meow-64)'s [post](https://www.reddit.com/r/unixporn/comments/ykt6z1/hyprland_catppuccin_with_hyprland) in r/unixporn.
 Without his post, this repository would not exist. During the creation of my config I then took inspiration from the many repositorys part of the Catppuccin theme!
+
+<hr>
 
 # Modules
 The repository consists of a few submodules:
@@ -51,33 +54,55 @@ The repository consists of a few submodules:
 	- **[tmux config](https://github.com/DefinitelyNotSimon13/tmuxConf/tree/08832bee2da029622fadc62de72e83bd19ea6ee0)** submodule
 	- **[waybar config](https://github.com/DefinitelyNotSimon13/waybarConf/tree/aaf33a147c2e2b016f076666b4a0042d97b0bb96)** submodule
 
+ <hr>
+
 # Configs not in the Repository (yet)
+Some configurations I use are not yet part of this repository. Those include:
+- Firefox
+	- [Catppuccin for Firefox](https://github.com/catppuccin/firefox)
+	- [Catppuccin Userstyles](https://github.com/catppuccin/userstyles)
+- Grub
+	- [Catppuccin for Grub](https://github.com/catppuccin/grub)
+- SDDM
+	- [Catppuccin for SDDM](https://github.com/catppuccin/sddm)
+
+<hr>
 
 # CREDIT
-Generally all repos etc around catppuccin can be credited here.
-Credit where credit is due!
-I have taken a lot of inspiration from many different sources - Since this repo is in very early stages I most certainly have forgotten many mentions.
-> Please feel free to add/edit any ReadMe files with missing credit! I'll do my best to add credit as I go along
+The main credit  goes to [u/meow-64](https://www.reddit.com/user/meow-64) for my inspiration and the [Catppuccin community](https://github.com/catppuccin/) for all their amazing work!
+
+Credit for each config can be found within the ReadMe files of the submodules!
+
+ **Zsh**
+- romkatv's [powerlevel10k theme](https://github.com/romkatv/powerlevel10k)
+- catppuccin's [zsh-syntax-highlitghting](https://github.com/catppuccin/zsh-syntax-highlighting)
+- zsh-user's [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- marlonrichert's [zsh-autocompletion ](https://github.com/marlonrichert/zsh-autocomplete)
+
+If I missed any credit or you think someone deserves credit who isn't mentioned, please feel free to open an issue!
+
+<hr>
 
 # TODO
-- Add more credit/mentions
-- Get screenshots working - currently only black
-- Make and add screenshots
-- Add CONTRIBUTE.md and properly set up repo with settings and stuff
-- Update ReadMe files to look good
-- Add proper scripts for depencies
-- Write own neovim config and move away from NVCHAD
-- Declare/decide on proper standart programms (e.g. currently having both brave and firefox)
-- Add other configs (e.g. firefox userStyles -I just gotta figure out how to best do it)
-- Massively update/improve rofi config
-- Change my wallpaper(s)
-- Customize neofetch
-- setup cliphist
-- More customisation and ricing
-- Add more scripts
-- Change Workspace indicator
-  - Automatically add things like gcm?
-- Add keybindig overview (hyprland, tmux, nvim) -> possibly more for my self lol
+|Item	| Topic/Submodule  | Priority | Status|
+|--|--|--|--|
+|Add credit	| All	| 1 |WIP|
+|Fix screenshots	|Rofi	|2 	|Done |
+|	Add screenshots|Base	|2	|Done|
+|Improve repositories	|All	|3	|WIP |
+|Add scripts	|All	|4	| TBD |
+|Rewrite Neovim config	|Neovim	|5	|TBD |
+|Decide standart applications	|All	|3	|TBD |
+|Add missing configs | New | 2 | TBD | 
+|Improve Rofi config|Rofi|3|TBD|
+|Improve Waybar config|Waybar|2|WIP|
+|Change Wallpapers|Base|3|Done|
+|Customize Neofetch|Neofetch|3|TBD|
+|Setup Cliphist|Cliphist|3|WIP|
+|Create keybind overview|All|4|TBD|
+|MORE RICING|All|0|WIP|
+
+<hr>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 
