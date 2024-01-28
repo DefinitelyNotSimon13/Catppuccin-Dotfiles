@@ -6,7 +6,7 @@
 	url = https://github.com/DefinitelyNotSimon13/tmuxConf
 [submodule "alacritty"]
 	path = .config/alacritty
-	url = https://github.com/DefinitelyNotSimon13/kittyConf
+	url = https://github.com/DefinitelyNotSimon13/alacrittyConf
 [submodule "rofiConf"]
 	path = .config/rofi
 	url = https://github.com/DefinitelyNotSimon13/rofiConf
