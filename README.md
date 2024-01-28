@@ -1,15 +1,21 @@
 <div align='center'>
-  <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
-  <br>
-  <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinBar.png' alt='Catppuccin Bar' width=400>
-  <br>
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=STARS&labelColor=585b70&color=fab387">
-  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DefinitelyNotSimon13/Catppuccin-Dotfiles?include_prereleases&display_name=tag&style=flat-square&label=RELEASES&labelColor=585b70&color=94e2d5">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=ISSUES&labelColor=585b70&color=f38ba8">
-<img alt="Static Badge" src="https://img.shields.io/badge/LICENSE-MIT-BLUE?style=flat-square&labelColor=585b70&color=89dceb">
-
-
-
+  <h1>
+    <div>
+      <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
+    </div>
+    <div>
+      My <a href=https://github.com/catppuccin/catppuccin>Catppuccin<a> Dotfiles
+    </div>
+    <div>
+      <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinBar.png' alt='Catppuccin Bar' width=400>
+    </div>
+    <div>
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=STARS&labelColor=585b70&color=fab387">
+      <img alt="GitHub Release" src="https://img.shields.io/github/v/release/DefinitelyNotSimon13/Catppuccin-Dotfiles?include_prereleases&display_name=tag&style=flat-square&label=RELEASES&labelColor=585b70&color=94e2d5">
+      <img alt="GitHub issues" src="https://img.shields.io/github/issues/DefinitelyNotSimon13/Catppuccin-Dotfiles?style=flat-square&label=ISSUES&labelColor=585b70&color=f38ba8">
+      <img alt="Static Badge" src="https://img.shields.io/badge/LICENSE-MIT-BLUE?style=flat-square&labelColor=585b70&color=89dceb">
+    </div>
+  </h1>
 </div>
 Hey there this is my hyprland config with everything else I remembered to add.
 
