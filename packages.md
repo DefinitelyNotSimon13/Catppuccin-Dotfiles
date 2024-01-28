@@ -56,10 +56,9 @@ linux-headers
 pavucontrol
 network-manager-applet
 pulseaudio
+cliphist
+grim
 
-- ddcutil
-- ddccontrol
-- gddccontrol
 
 (install yay)
 AUR/yay
