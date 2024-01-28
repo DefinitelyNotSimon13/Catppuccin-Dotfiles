@@ -93,13 +93,14 @@ If I missed any credit or you think someone deserves credit who isn't mentioned,
 |Add scripts	|All	|4	| TBD |
 |Rewrite Neovim config	|Neovim	|5	|TBD |
 |Decide standart applications	|All	|3	|TBD |
-|Add missing configs | New | 2 | TBD | 
+|Add missing configs|New|2|TBD| 
 |Improve Rofi config|Rofi|3|TBD|
 |Improve Waybar config|Waybar|2|WIP|
 |Change Wallpapers|Base|3|Done|
 |Customize Neofetch|Neofetch|3|TBD|
 |Setup Cliphist|Cliphist|3|WIP|
 |Create keybind overview|All|4|TBD|
+|Add screenshots to submodules|All|5|TBD
 |MORE RICING|All|0|WIP|
 
 <hr>
