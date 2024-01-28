@@ -28,3 +28,6 @@
 [submodule "nvim"]
 	path = .config/nvim
 	url = https://github.com/DefinitelyNotSimon13/nvimConf.git
+[submodule ".themes"]
+	path = .themes
+	url = https://github.com/DefinitelyNotSimon13/.themes.git

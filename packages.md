@@ -13,6 +13,7 @@ rofi
 waybar -- jack2
 pipewire
 wireplumber
+nvim
 dunst
 hyprland
 xdg-desktop-portal-hyprland
@@ -21,6 +22,7 @@ polkit-kde-agent
 qt5-wayland
 qt6-wayland
 firefox
+fontconfig
 neovim
 python
 python-pip
@@ -40,13 +42,30 @@ neofetch
 papirus-icon-theme
 (paper-icon theme (1))
 mpd
-zsh-autosuggestions
-zsh-syntax-highlighting
+btop
+midnight commander
+dconf-editor
+ttf-dejavu
+nwg-look
+dconf-editor
+ddcutil
+i2c-tools
+unzip
+xorg-xrandr
+linux-headers
+pavucontrol
+network-manager-applet
+pulseaudio
+
+- ddcutil
+- ddccontrol
+- gddccontrol
 
 (install yay)
 AUR/yay
 hyprpicker (1)
 catppuccin-gtk-theme-mocha
 git-credential-manager-core-bin
-
+nwg-look (1)
+ddcci-driver-linux-dkms
 

@@ -38,5 +38,6 @@ Many things may not work without dependencies. While I'll do my best to add an i
 - setup cliphist
 - More customisation and ricing
 - Add more scripts
+- Change Workspace indicator
   - Automatically add things like gcm?
 - Add keybindig overview (hyprland, tmux, nvim) -> possibly more for my self lol
