@@ -1,3 +1,4 @@
+![Catppuccin](https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png)
 Hey there this is my hyprland config with everything else I remembered to add.
 
 # DISCLAIMER 
