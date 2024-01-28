@@ -4,9 +4,6 @@
 [submodule "tmux"]
 	path = .config/tmux
 	url = https://github.com/DefinitelyNotSimon13/tmuxConf
-[submodule "alacritty"]
-	path = .config/alacritty
-	url = https://github.com/DefinitelyNotSimon13/kittyConf
 [submodule "rofiConf"]
 	path = .config/rofi
 	url = https://github.com/DefinitelyNotSimon13/rofiConf
