@@ -1,4 +1,4 @@
-<div align='center'>
+   <div align='center'>
   <h1>
     <div>
       <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
@@ -17,7 +17,7 @@
     </div>
   </h1>
 </div>
-Hey there this is my hyprland config with everything else I remembered to add.
+
 
 # DISCLAIMER 
 ## Work in Progress
@@ -27,6 +27,7 @@ Everything in this repository and it's submodules is still work in progress! The
 I only got into Linux in the past few weeks. It is very possible that things may be done incorrectly or improperly. 
 If you find anything thats wrong or could/should be done differently please feel free to open an issue!
 
+
 # Inspiration
 My first inspiration came from from [u/meow-64](https://www.reddit.com/user/meow-64)'s [post](https://www.reddit.com/r/unixporn/comments/ykt6z1/hyprland_catppuccin_with_hyprland) in r/unixporn.
 Without his post, this repository would not exist. During the creation of my config I then took inspiration from the many repositorys part of the Catppuccin theme!
@@ -35,7 +36,20 @@ Without his post, this repository would not exist. During the creation of my con
 The repository consists of a few submodules:
 - Main repository
   - .zsh config | *to be moved*
-     ...
+  - assets *like pictures and screenshots*
+  - text files *like README or License*
+-  **.themes** submodule *| to be cleaned up*
+- .config
+	- **[alacritty config](https://github.com/DefinitelyNotSimon13/alacrittyConf/tree/main)** submodule
+	- **[dunst config](https://github.com/DefinitelyNotSimon13/dunstConf/tree/main)** submodule
+	-  fontconfig *| can be removed?*
+	- **[hypr config](https://github.com/DefinitelyNotSimon13/hyprlandConf/tree/main)** submodule
+	- **[kitty config](https://github.com/DefinitelyNotSimon13/kittyConf/tree/main)** submodule
+	- **[neofetch config](https://github.com/DefinitelyNotSimon13/neofetchConf/tree/main)** submodule
+	- **[nvim config](https://github.com/DefinitelyNotSimon13/nvimConf/tree/main)** submodule
+	- **[rofi config](https://github.com/DefinitelyNotSimon13/rofiConf/tree/main)** submodule
+	- **[tmux config](https://github.com/DefinitelyNotSimon13/tmuxConf/tree/08832bee2da029622fadc62de72e83bd19ea6ee0)** submodule
+	- **[waybar config](https://github.com/DefinitelyNotSimon13/waybarConf/tree/aaf33a147c2e2b016f076666b4a0042d97b0bb96)** submodule
 
 # Configs not in the Repository (yet)
 
@@ -64,3 +78,6 @@ I have taken a lot of inspiration from many different sources - Since this repo 
 - Change Workspace indicator
   - Automatically add things like gcm?
 - Add keybindig overview (hyprland, tmux, nvim) -> possibly more for my self lol
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+
