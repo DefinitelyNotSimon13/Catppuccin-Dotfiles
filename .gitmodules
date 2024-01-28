@@ -28,3 +28,6 @@
 [submodule ".themes"]
 	path = .themes
 	url = https://github.com/DefinitelyNotSimon13/.themes.git
+[submodule "alacritty"]
+	path = .config/alacritty
+	url = https://github.com/DefinitelyNotSimon13/alacrittyConf
