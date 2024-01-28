@@ -1,4 +1,6 @@
-![Catppuccin](https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png)
+<div align='center'>
+  <img src='https://github.com/DefinitelyNotSimon13/Catppuccin-Dotfiles/blob/main/assets/catppuccinCat.png'  alt='Catppuccin Logo' width=200>
+</div>
 Hey there this is my hyprland config with everything else I remembered to add.
 
 # DISCLAIMER 
