@@ -1,0 +1,29 @@
+https://download-cdn.jetbrains.com/toolbox/feeds/v1/thirdparty-feed.feed.xz.signed
+GET
+0
+HTTP/1.1 200 OK
+19
+Content-Type: binary/octet-stream
+Content-Length: 3023
+Connection: keep-alive
+Date: Wed, 24 Jan 2024 23:01:05 GMT
+x-amz-replication-status: COMPLETED
+Last-Modified: Wed, 24 Jan 2024 22:58:30 GMT
+ETag: "da31c68e0d287275b9a66e8a8fada177"
+x-amz-server-side-encryption: AES256
+x-amz-version-id: zxQvADxZBoovLw2coTO4xPJgYni9rfHr
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 306e1cc20ffb597e5d6d7d7cc23384f4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: MUC50-P3
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 9eTeAfFZr_BZS_eFki7zdVSQiNMBSbwRQqagH3UWdJnyhCfFo72xgg==
+Age: 380
+OkHttp-Sent-Millis: 1706137644367
+OkHttp-Received-Millis: 1706137644382
+
+TLS_AES_128_GCM_SHA256
+0
+0
+TLSv1.3

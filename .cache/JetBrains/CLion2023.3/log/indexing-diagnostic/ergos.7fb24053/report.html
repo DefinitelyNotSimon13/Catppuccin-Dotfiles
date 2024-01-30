@@ -1,0 +1,532 @@
+<html>
+  <head>
+    <title>Indexing diagnostics of 'Ergos'</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.activity-table {
+  width: 100%;
+}
+
+table.narrow-activity-table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.stats-content {
+  margin-left: 20%;
+}
+
+.stats-activity-content {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.aggregate-activity-report-content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.aggregate-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.table-with-margin{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanning-table-row {
+  background-color: aliceblue;
+}
+
+.not-applicable-data{
+  color: darkgrey;
+}</style>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script>
+  </head>
+  <body>
+    <div class="aggregate-activity-report-content">
+      <h1 class="aggregate-header">Ergos</h1>
+      <div>All durations are wall time; total and content loading time include pauses
+        <table class="centered-text table-with-margin activity-table"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Click for details</caption>
+          <thead>
+            <tr>
+              <th colspan="14">History of scannings and indexings</th>
+            </tr>
+            <tr>
+              <th colspan="7">Time</th>
+              <th colspan="5">Files</th>
+              <th rowspan="2">Scanning ID(s)</th>
+              <th rowspan="2">Scanning Type</th>
+            </tr>
+            <tr>
+              <th>Started</th>
+              <th>Started dumb mode</th>
+              <th>Finished</th>
+              <th>Total&nbsp;time</th>
+              <th>Time spent on pause</th>
+              <th>Full dumb mode time</th>
+              <th>Dumb mode time w/o pauses</th>
+              <th>Scanned</th>
+              <th>Shared indexes (w/o content loading)</th>
+              <th>Scheduled for indexing</th>
+              <th>Shared indexes (content loaded)</th>
+              <th>Total indexed (shared indexes included)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-48-17.712.html">
+              <td>23:48:09 24 Jan</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>23:48:17 24 Jan</td>
+              <td>7 s 959 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>68968</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-46-40.995.html">
+              <td>23:46:29 24 Jan</td>
+              <td>23:46:29 24 Jan</td>
+              <td>23:46:40 24 Jan</td>
+              <td>11 s 735 ms</td>
+              <td>0</td>
+              <td>11 s 735 ms</td>
+              <td>11 s 735 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>28417<br>(incl. 1 with nothing to write)</td>
+              <td>1</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-46-29.257.html">
+              <td>23:46:18 24 Jan</td>
+              <td>23:46:18 24 Jan</td>
+              <td>23:46:29 24 Jan</td>
+              <td>10 s 435 ms</td>
+              <td>0</td>
+              <td>10 s 435 ms</td>
+              <td>10 s 435 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>17804<br>(incl. 17804 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-46-26.150.html">
+              <td>23:46:18 24 Jan</td>
+              <td>23:46:18 24 Jan</td>
+              <td>23:46:26 24 Jan</td>
+              <td>7 s 473 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>7 s 472 ms</td>
+              <td>7 s 472 ms</td>
+              <td>28434</td>
+              <td>0</td>
+              <td>28417</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-44-52.527.html">
+              <td>23:44:52 24 Jan</td>
+              <td>23:44:52 24 Jan</td>
+              <td>23:44:52 24 Jan</td>
+              <td>23 ms</td>
+              <td>0</td>
+              <td>23 ms</td>
+              <td>23 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>21<br>(incl. 21 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-44-31.287.html">
+              <td>23:44:31 24 Jan</td>
+              <td>23:44:31 24 Jan</td>
+              <td>23:44:31 24 Jan</td>
+              <td>23 ms</td>
+              <td>0</td>
+              <td>23 ms</td>
+              <td>23 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>100<br>(incl. 100 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-40-52.362.html">
+              <td>23:40:52 24 Jan</td>
+              <td>23:40:52 24 Jan</td>
+              <td>23:40:52 24 Jan</td>
+              <td>22 ms</td>
+              <td>0</td>
+              <td>22 ms</td>
+              <td>22 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>31<br>(incl. 31 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-34-09.677.html">
+              <td>23:34:09 24 Jan</td>
+              <td>23:34:09 24 Jan</td>
+              <td>23:34:09 24 Jan</td>
+              <td>20 ms</td>
+              <td>0</td>
+              <td>20 ms</td>
+              <td>20 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-34-09.655.html">
+              <td>23:34:08 24 Jan</td>
+              <td>23:34:08 24 Jan</td>
+              <td>23:34:09 24 Jan</td>
+              <td>1 s 222 ms</td>
+              <td>0</td>
+              <td>1 s 222 ms</td>
+              <td>1 s 222 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>8272<br>(incl. 8272 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-32-26.189.html">
+              <td>23:32:26 24 Jan</td>
+              <td>23:32:26 24 Jan</td>
+              <td>23:32:26 24 Jan</td>
+              <td>52 ms</td>
+              <td>0</td>
+              <td>52 ms</td>
+              <td>52 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>1<br>(incl. 1 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-31-14.045.html">
+              <td>23:31:10 24 Jan</td>
+              <td>23:31:10 24 Jan</td>
+              <td>23:31:14 24 Jan</td>
+              <td>3 s 279 ms</td>
+              <td>0</td>
+              <td>3 s 279 ms</td>
+              <td>3 s 279 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>11075<br>(incl. 11075 changed in VFS)<br>(incl. 2 with nothing to write)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-29-56.313.html">
+              <td>23:29:53 24 Jan</td>
+              <td class="not-applicable-data">Didn't start</td>
+              <td>23:29:56 24 Jan</td>
+              <td>2 s 966 ms</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>368</td>
+              <td>0</td>
+              <td>0</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2024-01-24-23-27-56.157.html">
+              <td>23:27:51 24 Jan</td>
+              <td>23:27:51 24 Jan</td>
+              <td>23:27:56 24 Jan</td>
+              <td>4 s 877 ms</td>
+              <td>0</td>
+              <td>4 s 877 ms</td>
+              <td>4 s 877 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>356</td>
+              <td>0</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-26-16.020.html">
+              <td>23:26:14 24 Jan</td>
+              <td>23:26:14 24 Jan</td>
+              <td>23:26:16 24 Jan</td>
+              <td>1 s 393 ms</td>
+              <td>0</td>
+              <td>1 s 378 ms</td>
+              <td>1 s 378 ms</td>
+              <td>368</td>
+              <td>0</td>
+              <td>356</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-24-31.036.html">
+              <td>23:24:30 24 Jan</td>
+              <td>23:24:30 24 Jan</td>
+              <td>23:24:30 24 Jan</td>
+              <td>19 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>17 ms</td>
+              <td>17 ms</td>
+              <td>8</td>
+              <td>0</td>
+              <td>8</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2024-01-24-23-24-30.562.html">
+              <td>23:24:29 24 Jan</td>
+              <td>23:24:29 24 Jan</td>
+              <td>23:24:30 24 Jan</td>
+              <td>1 s 383 ms</td>
+              <td>0</td>
+              <td>1 s 372 ms</td>
+              <td>1 s 372 ms</td>
+              <td>318</td>
+              <td>0</td>
+              <td>318</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="5">Scanning to push properties of changed files</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Reason</th>
+              <th>Full duration</th>
+              <th>Is cancelled</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>23:47:31 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:46:18 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>145 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:46:00 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>&lt; 1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:44:31 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>2 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:40:52 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>23:34:07 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>673 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:32:46 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>23:32:26 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>1 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:31:07 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>767 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:29:22 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>2 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>23:28:21 24 Jan</td>
+              <td>Push on VFS changes</td>
+              <td>17 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

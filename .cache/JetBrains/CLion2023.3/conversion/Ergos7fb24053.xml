@@ -1,0 +1,18 @@
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="CidrCompoundRunConfigurationConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/vcs.xml" t="1706135467" />
+    <f p="./.idea/misc.xml" t="1706135040" />
+    <f p="./.idea/dbnavigator.xml" t="1706135040" />
+    <f p="./.idea/git_toolbox_prj.xml" t="1706136461" />
+    <f p="./.idea/GitLink.xml" t="1706135040" />
+    <f p="./.idea/discord.xml" t="1706135040" />
+    <f p="./.idea/workspace.xml" t="1706184184" />
+    <f p="./.idea/ERGOS.iml" t="1706135040" />
+    <f p="./.idea/cmake.xml" t="1706135647" />
+    <f p="./.idea/modules.xml" t="1706135040" />
+  </project-files>
+</conversion>

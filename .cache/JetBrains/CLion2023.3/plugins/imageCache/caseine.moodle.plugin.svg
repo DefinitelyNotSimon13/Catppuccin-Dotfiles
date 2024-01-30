@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+        version="1.0"
+        width="40.000000pt"
+        height="40.000000pt"
+        viewBox="0 0 40.000000 40.000000"
+        preserveAspectRatio="xMidYMid meet"
+        id="svg209"
+        sodipodi:docname="pluginIcon.svg"
+        inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <defs
+            id="defs213"/>
+    <sodipodi:namedview
+            id="namedview211"
+            pagecolor="#ffffff"
+            bordercolor="#000000"
+            borderopacity="0.25"
+            inkscape:showpageshadow="2"
+            inkscape:pageopacity="0.0"
+            inkscape:pagecheckerboard="0"
+            inkscape:deskcolor="#d1d1d1"
+            inkscape:document-units="pt"
+            showgrid="false"
+            inkscape:zoom="15.65625"
+            inkscape:cx="19.033932"
+            inkscape:cy="24.942116"
+            inkscape:window-width="1920"
+            inkscape:window-height="1051"
+            inkscape:window-x="-9"
+            inkscape:window-y="-9"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="svg209"/>
+    <ellipse
+            style="fill:#ffffff;stroke-width:0.78223"
+            id="path429"
+            cx="18.035929"
+            cy="18.778444"
+            rx="7.1616769"
+            ry="12.167665"/>
+    <ellipse
+            style="fill:#ffffff;stroke-width:0.75"
+            id="path435"
+            cx="21.101797"
+            cy="12.119761"
+            rx="9.0299397"
+            ry="2.9700599"/>
+    <ellipse
+            style="fill:#ffffff;stroke-width:0.75"
+            id="path437"
+            cx="19.904192"
+            cy="8.9341326"
+            rx="7.3532939"
+            ry="2.6107783"/>
+    <ellipse
+            style="fill:#ffffff;stroke-width:0.75"
+            id="path439"
+            cx="16.814371"
+            cy="6.8502994"
+            rx="4.1197605"
+            ry="1.7245508"/>
+    <path
+            style="fill:#ffffff;stroke-width:0.779317"
+            id="path503"
+            sodipodi:type="arc"
+            sodipodi:cx="17.796406"
+            sodipodi:cy="6.9461079"
+            sodipodi:rx="6.0119762"
+            sodipodi:ry="1.6287426"
+            sodipodi:start="6.1341289"
+            sodipodi:end="4.8548528"
+            sodipodi:open="true"
+            sodipodi:arc-type="arc"
+            d="M 23.741719,6.7042313 A 6.0119762,1.6287426 0 0 1 20.513118,8.3990717 6.0119762,1.6287426 0 0 1 13.559333,8.1015928 6.0119762,1.6287426 0 0 1 12.415466,6.2197009 6.0119762,1.6287426 0 0 1 18.650001,5.3338658"/>
+    <ellipse
+            style="fill:#ffffff;stroke-width:0.563413"
+            id="path675"
+            cx="24.479042"
+            cy="16.09581"
+            rx="2.0598803"
+            ry="1.5808384"/>
+    <path
+            style="fill:#ffffff;stroke-width:0.75"
+            id="path759"
+            sodipodi:type="arc"
+            sodipodi:cx="25.317368"
+            sodipodi:cy="17.940121"
+            sodipodi:rx="1.4131737"
+            sodipodi:ry="1.5568862"
+            sodipodi:start="2.2699057"
+            sodipodi:end="5.3188997"
+            sodipodi:arc-type="arc"
+            d="m 24.407939,19.131786 a 1.4131737,1.5568862 0 0 1 -0.213168,-2.137351 1.4131737,1.5568862 0 0 1 1.928111,-0.333517"
+            sodipodi:open="true"/>
+    <g
+            transform="matrix(0.1,0,0,-0.10500532,-0.21152588,41.70004)"
+            fill="#000000"
+            stroke="none"
+            id="g207-4-7">
+        <path
+                d="m 17,343 c -4,-3 -7,-15 -7,-25 0,-21 56,-59 75,-52 24,9 27,-17 6,-40 -28,-30 -27,-39 12,-91 29,-41 35,-44 77,-44 54,-1 65,6 79,42 16,42 14,84 -6,91 -22,9 -33,-10 -33,-61 0,-23 -5,-45 -12,-49 -16,-10 -38,26 -32,53 4,12 3,35 0,49 -5,19 -11,24 -26,19 -14,-5 -20,-2 -20,9 0,9 7,16 16,16 14,0 15,7 10,42 -8,52 -9,52 -36,38 -16,-8 -30,-9 -52,-1 -36,13 -42,13 -51,4 z"
+                id="path203-3-9"/>
+        <path
+                d="m 330,330 c -8,-5 -29,-7 -46,-4 -29,5 -32,3 -38,-27 -4,-21 -2,-35 6,-40 19,-12 100,1 121,19 37,33 -1,80 -43,52 z"
+                id="path205-9-3"/>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+============= 2024-01-24 22:48:03.927733891 UTC
+    0 [info ] args: ["/home/simon/.local/share/JetBrains/Toolbox/apps/clion/bin/restarter", "12054", "1", "/home/simon/.local/share/JetBrains/Toolbox/apps/clion/bin/clion.sh"]
+    0 [info ] CWD: Ok("/home/simon")
+    0 [info ] waiting for 12054
+  702 [info ] exec-ing: ["/home/simon/.local/share/JetBrains/Toolbox/apps/clion/bin/clion.sh"]

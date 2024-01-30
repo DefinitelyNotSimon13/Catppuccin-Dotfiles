@@ -1,0 +1,12 @@
+[
+    "appstream://org.kde.kolourpaint.desktop",
+    "appstream://org.kde.krita",
+    "appstream://org.kde.gcompris.desktop",
+    "appstream://org.kde.kpat",
+    "appstream://org.kde.kmymoney.desktop",
+    "appstream://org.kde.kdenlive.desktop",
+    "appstream://org.kde.elisa.desktop",
+    "appstream://org.kde.yakuake.desktop",
+    "appstream://org.kde.kstars.desktop",
+    "appstream://org.kde.skanpage.desktop"
+]

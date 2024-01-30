@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2A81BE" offset="0%"></stop>
+            <stop stop-color="#7CC9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="IntelliJ---40" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <rect id="Rectangle" stroke="#999999" stroke-width="0.5" x="0.25" y="0.25" width="39.5" height="39.5"></rect>
+            <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0" y="0" width="40" height="40"></rect>
+            <path d="M10.3262868,20.1213235 L10.3262868,20.1764706 L15.6204044,22.0422794 L15.6204044,24.5422794 L7.70680147,21.1691176 L7.70680147,19.0827206 L15.6204044,15.71875 L15.6204044,18.21875 L10.3262868,20.1213235 Z M18.2490809,26.3253676 L16.2637868,26.3253676 L21.171875,11.7941176 L23.1571691,11.7941176 L18.2490809,26.3253676 Z M29.6829044,20.2224265 L29.6829044,20.1672794 L24.3060662,18.2738971 L24.3060662,15.8014706 L32.3115809,19.1654412 L32.3115809,21.2518382 L24.3060662,24.625 L24.3060662,22.1433824 L29.6829044,20.2224265 Z" id="&lt;/&gt;" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
