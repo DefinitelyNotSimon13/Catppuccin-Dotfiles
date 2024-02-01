@@ -22,6 +22,8 @@
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
+## Scripts
+The first version of some scripts has been added. These are all very experimental and might destroy things. I'll start properly testing them in the future, however until then, please look into the '.sh' files, before executing any scripts, to make sure they dont delete anything you dont want deleted!
 
 ## Furthermore
 I only got into Linux in the past few weeks. It is very possible that things may be done incorrectly or improperly. 
