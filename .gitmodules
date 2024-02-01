@@ -28,3 +28,6 @@
 [submodule "alacritty"]
 	path = .config/alacritty
 	url = https://github.com/DefinitelyNotSimon13/alacrittyConf
+[submodule "scripts"]
+	path = scripts
+	url = https://github.com/DefinitelyNotSimon13/scriptsConf
