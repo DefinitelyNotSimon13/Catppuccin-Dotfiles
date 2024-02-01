@@ -24,8 +24,10 @@
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
 ## Scripts
 The scripts do kind of work. I've changed tried to get them as functional as possible. They should now be able to install most things into a clean arch install (needed is only git).
-> Clone the scriptsConf repository into ~/scripts and execute ~/scripts/install.sh. 
+
 The first version of some scripts has been added. These are all very experimental and might destroy things. I'll start properly testing them in the future, however until then, please look into the '.sh' files, before executing any scripts, to make sure they dont delete anything you dont want deleted!
+
+> Clone the scriptsConf repository into ~/scripts and execute ~/scripts/install.sh.
 
 ## Furthermore
 I only got into Linux in the past few weeks. It is very possible that things may be done incorrectly or improperly. 
