@@ -518,7 +518,7 @@
   # it will signify success by turning green.
   typeset -g POWERLEVEL9K_STATUS_OK=true
   typeset -g POWERLEVEL9K_STATUS_OK_VISUAL_IDENTIFIER_EXPANSION='✔'
-  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND=2
+  typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND='#a6e3a1'
   typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND=0
 
   # Status when some part of a pipe command fails but the overall exit status is zero. It may look
@@ -1828,6 +1828,18 @@
 
 # Tell `p10k configure` which file it should overwrite.
 typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
+
+# CUSTOM
+typeset -g POWERLEVEL9K_TIME_FOREGROUND='#ccd6f4'
+typeset -g POWERLEVEL9K_TIME_BACKGROUND='#45475a'
+typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND='#45475a'
+typeset -g POWERLEVEL9K_STATUS_OK_BACKGROUND='#a6e3a1'
+typeset -g POWERLEVEL9K_DIR_FOREGROUND='#ccd6f4'
+typeset -g POWERLEVEL9K_DIR_BACKGROUND='#45475a'
+typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='#1e1e2e'
+typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND='#a6adc8'
+typeset -g POWERLEVEL9K_DIR_ANCHOR_BOLD='#fab387'
+typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND='#89dceb'
 
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
