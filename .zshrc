@@ -32,3 +32,6 @@ tmux-window-name() {
 	($TMUX_PLUGIN_MANAGER_PATH/tmux-window-name/scripts/rename_session_windows.py &)
 }
 
+
+# Created by `pipx` on 2024-02-02 15:03:29
+export PATH="$PATH:/home/simon/.local/bin"
