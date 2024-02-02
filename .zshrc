@@ -12,8 +12,15 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+alias vim=nvim
+alias vi=nvim
+
 export ZSH="$HOME/.oh-my-zsh"
+export EDITOR=nvim
+
+export PATH="$HOME/.config/tmuxifier/bin:$PATH"
+
+eval "$(tmuxifier init -)"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -85,6 +92,8 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+
+# tmux-windo
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
