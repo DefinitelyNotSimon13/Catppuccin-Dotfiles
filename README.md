@@ -18,6 +18,11 @@
     </div>
   </h1>
 </div>
+
+# BRANCH
+*The branch structures is not fully setup yet*
+This branch includes changes and configs that are only relevant for my personal setup.
+Most changes on the main branches will be based on my configuration, as such this branch is going to be the one most up to date most of the time.
 	      
 # DISCLAIMER 
 ## Work in Progress
