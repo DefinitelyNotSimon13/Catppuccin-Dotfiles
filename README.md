@@ -20,8 +20,7 @@
 </div>
 
 # BRANCH
-*The branch structures is not fully setup yet*
-This branch is the main branch of the project. Changes here *should be* universally applicable and not based on my personal setup.  
+For information about each of the branches checkout BRANCHES.md
 
 # DISCLAIMER 
 ## Work in Progress
