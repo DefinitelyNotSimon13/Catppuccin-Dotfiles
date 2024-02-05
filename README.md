@@ -18,7 +18,11 @@
     </div>
   </h1>
 </div>
-	      
+
+# BRANCH
+*The branch structures is not fully setup yet*
+This branch is the main branch of the project. Changes here *should be* universally applicable and not based on my personal setup.  
+
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
