@@ -20,10 +20,8 @@
 </div>
 
 # BRANCH
-*The branch structures is not fully setup yet*
-This branch includes changes and configs that are only relevant for my personal setup.
-Most changes on the main branches will be based on my configuration, as such this branch is going to be the one most up to date most of the time.
-	      
+For information about each of the branches checkout BRANCHES.md
+
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
