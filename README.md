@@ -19,6 +19,11 @@
   </h1>
 </div>
 	      
+# BRANCH
+*The branch structures is not fully setup yet*
+This branch *should* include the most stable changes and scripts. 
+At this point **nothing** is stable though - this branch is basically just a reminder for me to work on making things stable.
+
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
