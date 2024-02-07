@@ -1,9 +1,0 @@
-git submodule add --name alacritty "https://github.com/DefinitelyNotSimon13/alacrittyConf" .config/alacritty
-git submodule add --name dunst "https://github.com/DefinitelyNotSimon13/dunstConf" .config/dunst
-git submodule add --name hypr "https://github.com/DefinitelyNotSimon13/hyprlandConf" .config/hypr
-git submodule add --name kitty "https://github.com/DefinitelyNotSimon13/kittyConf" .config/kitty
-git submodule add --name neofetch "https://github.com/DefinitelyNotSimon13/neofetchConf" .config/neofetch
-git submodule add --name nvim "https://github.com/DefinitelyNotSimon13/nvimConf" .config/nvim
-git submodule add --name rofi "https://github.com/DefinitelyNotSimon13/rofiConf" .config/rofi
-git submodule add --name tmux "https://github.com/DefinitelyNotSimon13/tmuxConf" .config/tmux
-git submodule add --name waybar "https://github.com/DefinitelyNotSimon13/waybarConf" .config/waybar
