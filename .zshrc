@@ -25,6 +25,8 @@ HIST_STAMPS="mm.dd.yyyy"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting wakatime)
 
+export QT_QPA_PLATFORMTHEME="qt6ct"
+
 source $ZSH/oh-my-zsh.sh
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
