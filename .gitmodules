@@ -31,3 +31,6 @@
 [submodule "installScript"]
 	path = 1_Coding/installScriptV2
 	url = https://github.com/DefinitelyNotSimon13/installScriptV2.git
+[submodule "InstallScriptV2"]
+	path = 1_Coding/installScriptV2
+	url = https://github.com/DefinitelyNotSimon13/installScriptV2
