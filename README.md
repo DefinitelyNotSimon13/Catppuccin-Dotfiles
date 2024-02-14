@@ -18,10 +18,6 @@
   </h1>
 </div>
 
-# BRANCH
-I've recently switched to managing my dotfiles using stow. This branch includes a cleaned up version of the main branch, present on my main PC.
-I plan to fully switch to using stow on my desktop as well, once I find the time, this branch will be rebased onto main.
-
 # DISCLAIMER 
 ## Work in Progress
 Everything in this repository and it's submodules is still work in progress! They may contain any sorts of issues. If you encounter any, please feel free to open an issue!
