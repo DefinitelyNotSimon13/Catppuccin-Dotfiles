@@ -29,5 +29,5 @@
 	path = .config/waybar
 	url = https://github.com/DefinitelyNotSimon13/waybarConf
 [submodule "installScript"]
-	path = installScriptV2
+	path = 1_Coding/installScriptV2
 	url = https://github.com/DefinitelyNotSimon13/installScriptV2.git
