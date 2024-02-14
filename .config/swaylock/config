@@ -1,7 +1,0 @@
-ignore-empty-password
-daemonize
-image=~/Pictures/wallpapers/minimalistic/tetris.png
-inside-color=1e1e2eee
-inside-clear-color=f9e2afee
-inside-caps-lock-color=f38ba8
-line-color=a6e3a1

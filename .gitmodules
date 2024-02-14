@@ -34,3 +34,15 @@
 [submodule "InstallScriptV2"]
 	path = 1_Coding/installScriptV2
 	url = https://github.com/DefinitelyNotSimon13/installScriptV2
+[submodule "nwg-dock-hyprland"]
+	path = .config/nwg-dock-hyprland
+	url = https://github.com/DefinitelyNotSimon13/nwg-dockConf.git
+[submodule "nwg-drawer"]
+	path = .config/nwg-drawer
+	url = https://github.com/DefinitelyNotSimon13/nwg-drawerConf.git
+[submodule "swayidle"]
+	path = .config/swayidle
+	url = https://github.com/DefinitelyNotSimon13/swayidleConf.git
+[submodule "swaylock"]
+	path = .config/swaylock
+	url = https://github.com/DefinitelyNotSimon13/swaylockConf.git
