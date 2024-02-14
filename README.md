@@ -20,7 +20,7 @@
 </div>
 
 # BRANCH
-For information about each of the branches checkout BRANCHES.md
+This branch is deprecated and no longer in use.
 
 # DISCLAIMER 
 ## Work in Progress
