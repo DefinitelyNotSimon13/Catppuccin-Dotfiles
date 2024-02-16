@@ -46,3 +46,6 @@
 [submodule "swaylock"]
 	path = .config/swaylock
 	url = https://github.com/DefinitelyNotSimon13/swaylockConf.git
+[submodule "spicetify"]
+	path = .config/spicetify
+	url = https://github.com/DefinitelyNotSimon13/spicetifyConf
