@@ -7,6 +7,8 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 alias vim=nvim
 alias vi=nvim
+alias t=tmux
+alias te="tmux kill-session && exit"
 
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=nvim
