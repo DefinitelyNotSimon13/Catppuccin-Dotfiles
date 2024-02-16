@@ -37,5 +37,5 @@ tmux-window-name() {
 
 # Created by `pipx` on 2024-02-02 15:03:29
 export PATH="$PATH:/home/simon/.local/bin"
-eval "$(zoxide --cmd cd init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
