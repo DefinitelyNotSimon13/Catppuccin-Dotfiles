@@ -5,10 +5,6 @@ fi
 
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
-alias vim=nvim
-alias vi=nvim
-alias t=tmux
-alias te="tmux kill-session && exit"
 
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=nvim
@@ -41,3 +37,14 @@ tmux-window-name() {
 export PATH="$PATH:/home/simon/.local/bin"
 eval "$(zoxide init --cmd cd zsh)"
 
+alias vim=nvim
+alias vi=nvim
+alias t=tmux
+alias te="tmux kill-session && exit"
+alias ls=exa
+alias ll="exa --long"
+alias tree="exa --tree"
+alias la="exa --all"
+alias lla="exa --long --all"
+alias cat=bat
+alias zz="cd -"
