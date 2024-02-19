@@ -49,3 +49,6 @@
 [submodule "spicetify"]
 	path = .config/spicetify
 	url = https://github.com/DefinitelyNotSimon13/spicetifyConf
+[submodule "wlogout"]
+	path = .config/wlogout
+	url = https://github.com/DefinitelyNotSimon13/wlogoutConf
