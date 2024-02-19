@@ -1,5 +1,5 @@
 [submodule "scripts"]
-	path = scripts
+	path = .scripts
 	url = https://github.com/DefinitelyNotSimon13/scriptsConf.git
 [submodule "alacritty"]
 	path = .config/alacritty
