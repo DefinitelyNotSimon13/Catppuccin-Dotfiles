@@ -1,6 +1,5 @@
 installScriptV2
 .git
-scripts
 addSubmodules.sh
 assets
 CODE_OF_CONDUCT.md
