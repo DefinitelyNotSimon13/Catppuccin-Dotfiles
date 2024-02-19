@@ -1,0 +1,17 @@
+ls:
+  .js: snake_case
+  .ts: snake_case | camelCase
+  .d.ts: PascalCase
+  .html: regex:[a-z0-9]+
+  .cpp: PascalCase | snake_case
+  .hpp: PascalCase | snake_case
+
+ignore:
+  - node_modules
+  - 1_Coding/**/vcpkg
+  - 1_Coding/**/build
+  - .var
+  - .local
+  - .config
+  - .cargo
+  - .cache
