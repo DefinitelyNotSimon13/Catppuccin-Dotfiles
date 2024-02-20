@@ -52,3 +52,4 @@ alias lg="lazygit"
 eval $(thefuck --alias)
 
 path+=("$HOME/.scripts/bin")
+path+=("$HOME/.bin")
