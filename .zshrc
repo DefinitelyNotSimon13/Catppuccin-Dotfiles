@@ -47,5 +47,8 @@ alias la="exa --all"
 alias lla="exa --long --all"
 alias cat=bat
 alias zz="cd -"
+alias lg="lazygit"
 
 eval $(thefuck --alias)
+
+path+=("$HOME/.scripts/bin")
