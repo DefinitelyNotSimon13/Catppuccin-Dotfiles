@@ -1,4 +1,3 @@
-neofetch
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -48,3 +47,8 @@ alias la="exa --all"
 alias lla="exa --long --all"
 alias cat=bat
 alias zz="cd -"
+alias lg="lazygit"
+
+eval $(thefuck --alias)
+
+path+=("$HOME/.scripts/bin")
