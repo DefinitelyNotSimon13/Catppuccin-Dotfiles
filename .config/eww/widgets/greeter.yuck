@@ -1,0 +1,7 @@
+(defwidget greeter [?text name]
+  (button 
+    :class "greeterButton button"
+    :onclick "notify-send 'Hello' 'Hello, ${name}'"
+    text
+  )
+)

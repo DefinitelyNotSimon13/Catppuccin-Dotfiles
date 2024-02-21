@@ -1,0 +1,43 @@
+(include "widgets/greeter.yuck")
+(include "widgets/spotify.yuck")
+(include "widgets/placeholder.yuck")
+
+(defwindow dropdown
+  :class "dropdownWindow"
+  :stacking "overlay"
+  :focusable "false"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry 
+    :width "25%" 
+    :height "40%"
+    :anchor "top right")
+  :monitor 0
+  (mainContainer)
+)
+
+
+(defwidget mainContainer []
+  (box :orientation "v"
+    :class "mainContainer container"
+    (box :orientation "h" :class "horizontalContainer container"
+      (greeter 
+        :text "Say, hello!"
+        :name "Simon")
+      (spotify)
+      (placeholderButton)
+    )
+    (box :orientation "h" :class "horizontalContainer cotainer"
+      (placeholderWifi)
+      (placeholderNetwork)
+      (placeholderButton)
+    )
+    (box :orientation "h" :class "horizontalContainer container"
+      (placeholderScale)
+      (placeholderCheckbox)
+      (placeholderButton)
+    )
+  )
+)
+
+

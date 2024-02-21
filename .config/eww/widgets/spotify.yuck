@@ -1,0 +1,7 @@
+(defwidget spotify []
+  (button 
+    :class "spotifyButton button"
+    :onclick "source ./scripts/spotify.sh"
+    "Spotify"
+  )
+)

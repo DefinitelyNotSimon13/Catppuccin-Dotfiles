@@ -1,0 +1,45 @@
+(defwidget placeholderButton []
+  (button 
+    :class "placeholderButton button"
+    :onclick "notify-send 'Placeholder' 'I am just a placeholder!'"
+    "Placeholder"
+  )
+)
+
+(defwidget placeholderCheckbox []
+  (checkbox)
+)
+
+(deflisten brightness :initial 0 "./scripts/brightness.sh follow")
+
+(defwidget placeholderScale []
+  (scale
+    :flipped true
+    :draw-value true
+    :orientation "v"
+    :value brightness
+    :min 1
+    :onchange "./scripts/brightness.sh set {}"
+  )
+)
+
+(deflisten wifiActive :initial 0 "./scripts/network.sh followWifi")
+
+(defwidget placeholderWifi []
+  (button
+    :class {wifiActive == 1 ? "btnActive button" : "btnInactive button"}
+    :onclick "./scripts/network.sh toggleWifi"
+    "Wifi"
+  )
+)
+
+(deflisten networkActive :initial 0 "./scripts/network.sh followNetworking")
+
+(defwidget placeholderNetwork []
+  (button
+    :class {networkActive == 1 ? "btnActive button" : "btnInactive button"}
+    :onclick "./scripts/network.sh toggleNetworking"
+    "Network"
+  )
+)
+
