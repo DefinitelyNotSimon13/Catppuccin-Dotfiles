@@ -52,3 +52,6 @@
 [submodule "wlogout"]
 	path = .config/wlogout
 	url = https://github.com/DefinitelyNotSimon13/wlogoutConf
+[submodule "ags"]
+	path = .config/ags
+	url = https://github.com/DefinitelyNotSimon13/agsConf
