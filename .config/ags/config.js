@@ -1,11 +1,17 @@
-const myLabel = Widget.Label({
-    label: 'some example content',
-})
+const entry = App.configDir + '/ts/main.ts'
+const outdir = '/tmp/ags/js'
 
-const myBar = Widget.Window({
-    name: 'bar',
-    anchor: ['top', 'right'],
-    child: myLabel,
-})
+try {
+    await Utils.execAsync([
+        'bun', 'build', entry,
+        '--outdir', outdir,
+        '--external', 'resource://*',
+        '--external', 'gi://*',
+    ])
+} catch (error) {
+    console.error(error)
+}
 
-export default { windows: [myBar] }
+const main = await import(`file://${outdir}/main.js`)
+
+export default main.default
