@@ -58,6 +58,7 @@ alias cat=bat
 alias zz="cd -"
 alias lg="lazygit"
 alias :q="exit"
+alias cl="clear"
 
 eval $(thefuck --alias)
 
