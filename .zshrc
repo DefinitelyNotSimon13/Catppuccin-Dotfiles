@@ -57,8 +57,12 @@ alias lla="exa --long --all"
 alias cat=bat
 alias zz="cd -"
 alias lg="lazygit"
+alias :q="exit"
 
 eval $(thefuck --alias)
 
 path+=("$HOME/.scripts/bin")
 path+=("$HOME/.bin")
+
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
