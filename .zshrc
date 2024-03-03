@@ -65,5 +65,4 @@ eval $(thefuck --alias)
 path+=("$HOME/.scripts/bin")
 path+=("$HOME/.bin")
 
-eval "$(atuin init zsh)"
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
