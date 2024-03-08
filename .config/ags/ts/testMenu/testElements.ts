@@ -1,7 +1,7 @@
 const network = await Service.import('network')
 
 export const date = Variable('', {
-  poll: [1000, 'date'],
+poll: [1000, 'date'],
 })
 
 export const button = Widget.Button({
@@ -56,6 +56,14 @@ const horizontalBox2 = Widget.Box({
 
 
 export default () => Widget.Box({
+  vertical: true,
+  children: [
+    horizontalBox1,
+    horizontalBox2,
+  ],
+})
+
+export const testElements2 = () => Widget.Box({
   vertical: true,
   children: [
     horizontalBox1,
