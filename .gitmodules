@@ -55,3 +55,6 @@
 [submodule "ags"]
 	path = .config/ags
 	url = https://github.com/DefinitelyNotSimon13/agsConf
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/DefinitelyNotSimon13/ohmyzsh-conf.git
